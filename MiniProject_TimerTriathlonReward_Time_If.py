@@ -1,11 +1,11 @@
 import time
 
 #request info and time
-event_type = input("Enter the type of event - swimming, cycling, or running: ")
+event_type = input("\nEnter the type of event - swimming, cycling, or running: ")
 start_time= time.time()
 
 #timer to stop to have final time
-timer = input("Press anything to stop")
+timer = input("\nPress anything to stop")
 #time differences in seconds
 end_time=time.time()-start_time
 
@@ -13,14 +13,14 @@ end_time=time.time()-start_time
 end_time  = end_time/60
 
 if end_time <= 100: 
-    print(f"{event_type} - Provincial Colours")
+    print(f"\n{event_type} - Provincial Colours")
 
-elif end_time <= 105:
-    print(f"{event_type} - Provincial Half Colours")
+elif end_time <= 5:
+    print(f"\n{event_type} - Provincial Half Colours")
 
-elif end_time <= 110:
-    print(f"{event_type} - Provincial Scroli")
+elif end_time <= 10:
+    print(f"\n{event_type} - Provincial Scroli")
 
 else:
-    print(f"{event_type} - No award")
+    print(f"\n{event_type} - No award")
 
