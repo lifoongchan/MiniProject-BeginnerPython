@@ -1,7 +1,5 @@
 user=input("What is your name? Answer: ")
-print("\n")
-print("Welcome to your personal BMI Calculator, " + user)
-print("\n")
+print(f"\nWelcome to your personal BMI Calculator, {user}!\n")
 
 w=float(input("Weight in kilograms: "))
 h=float(input("Height in meters: "))
